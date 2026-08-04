@@ -1,5 +1,3 @@
-from collections import deque
-
 n,m = map(int,input().split())
 grid = [list(map(int,input().split())) for _ in range(n)]
 bombs  = list(int(input()) for _ in range(m))
